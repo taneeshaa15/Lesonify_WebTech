@@ -1,0 +1,289 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.heading {
+  color: #4bb3f9;
+}
+
+.did_you {
+  background-color: #4bb3f9;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-outline-primary:focus {
+  color: white;
+  background-color: #4bb3f9;
+  border: 0px solid #4bb3f9;
+}
+
+.main_div {
+  background-color: #eee;
+  padding-bottom: 20px;
+}
+
+.did_you_know {
+  color: black;
+  font-size: 16px;
+}
+
+.btn-outline-primary-1 {
+  background-color: white;
+  border: 2px solid #404040;
+}
+
+.btn-outline-primary-1:hover {
+  background-color: #4bb3f9;
+  color: white;
+}
+
+.lead {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.grade {
+  background-color: white;
+  border: 4px solid #4bb3f9;
+  width: 308px;
+  border-radius: 5px;
+}
+
+.grade:hover {
+  background-color: #4bb3f9 !important;
+  box-shadow: none !important;
+  border: 4px solid #f5f4f4;
+}
+
+.grade:focus {
+  border: 2px solid #4bb3f9;
+  background-color: #4bb3f9;
+  color: white;
+}
+
+.next {
+  border: 2px solid #4bb3f9;
+  background-color: #4bb3f9;
+  color: white;
+  width: auto;
+  padding: 8px 24px;
+}
+
+.next:hover {
+  background-color: #0d6efd !important;
+  box-shadow: none !important;
+}
+
+.next:focus {
+  border: 2px solid #4bb3f9;
+  background-color: #4bb3f9;
+  color: white;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  position: relative;
+  margin: 25px 0;
+  height: 30px;
+  margin: auto;
+  width: 200px;
+}
+
+.progDone {
+  background: #4bb3f9;
+  border-radius: 10px;
+  color: black;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+
+/* ImageQuiz css  */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #4ba9f9;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.quizBox {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-content {
+  box-shadow: 0 0 20px 2px #d2d2d2;
+  padding: 20px auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.hero-header {
+  box-shadow: 0 0 2px 2px #d2d2d2;
+  background-color: #4ba9f9;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.item-image,
+.item-options {
+  border: 1px solid #d2d2d2;
+  padding: 4px;
+  margin: 16px;
+  box-shadow: 0 0 10px 2px #a8bbc1;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.timer-comp {
+  margin-top: 13%;
+  display: flex;
+  justify-content: center;
+}
+
+.item-image,
+.option-loader,
+.display-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  background-color: #4ba9f9;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #d2d2dd;
+  box-shadow: 0 0 2px 2px #d2d2d2;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.option:hover {
+  background-color: #1f8ff1;
+}
+
+.continue-btn-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.continue-btn {
+  padding: 12px 20px;
+  background-color: #4ba9f9;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px #d2d2d2;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: #148df7;
+}
+
+#footer {
+  margin-top: -20px;
+  font-size: 14px;
+  background-color: #eee;
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  background-color: red;
+}
+
+.display-result {
+  min-height: 260px;
+  font-size: 48px;
+  flex-wrap: wrap;
+}
+
+.display-result p {
+  width: 100%;
+  text-align: center;
+}
+
+.display-result ul {
+  font-size: 20px;
+}
+
+.win-lose span {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.winner-label {
+  color: green;
+}
+
+.loser-label {
+  color: red;
+}
+
+@media only screen and (max-width: 992px) {
+  .item-options,
+  .item-image {
+    margin: 16px 0;
+  }
+
+  .timer-comp {
+    margin: 5% 0;
+  }
+}

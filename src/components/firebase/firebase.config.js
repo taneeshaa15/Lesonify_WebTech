@@ -1,6 +1,6 @@
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBhKyT8OStvhoxM2TO-RK9U8cGFX1ATzDQ",
+    apiKey: " ",
     authDomain: "sih-eeg.firebaseapp.com",
     projectId: "sih-eeg",
     storageBucket: "sih-eeg.appspot.com",

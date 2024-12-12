@@ -1,0 +1,15 @@
+.file-upload{
+    height:300px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.upload-icon{
+    font-size: 80px;
+    cursor: pointer;
+}
+.file-upload input{
+    position:absolute;
+    height:100px;
+    opacity:0;
+}
